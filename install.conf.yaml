@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+
+- clean: ['~']
+
+- link:
+    ~/.vim: vim
+    
+
+- create:
+    - ~/git
+    - ~/git/jeffaudio
+
