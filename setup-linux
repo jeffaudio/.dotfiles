@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
+echo "- Updating packages"
 sudo apt update -qy
+echo "- Installing recommended packages"
 sudo apt install -qy git zsh fzf
 
 # Setup ZSH

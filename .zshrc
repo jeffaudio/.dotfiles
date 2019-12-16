@@ -1,6 +1,6 @@
 
 # Package Manager
-source ~/config/antigen.zsh
+source ~/.dotfiles/config/antigen.zsh
 antigen use oh-my-zsh
 antigen theme robbyrussel
 
