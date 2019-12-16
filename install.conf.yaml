@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: .zshrc
+    ~/.zshrc: zshrc
     ~/.vim: vim
 
 - create:
