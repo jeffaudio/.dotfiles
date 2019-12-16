@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+sudo apt update -qy
+sudo apt install -qy git zsh fzf
+
+# Setup ZSH
+~/.dotfiles/setup-zsh
+
+~/.dotfiles/install
