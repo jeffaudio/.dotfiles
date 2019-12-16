@@ -8,7 +8,7 @@ fi
 
 # Update homebrew and install packages
 brew update
-brew bundle
+brew bundle --file=~/.dotfiles/config/Brewfile
 
 # Setup ZSH
 ~/.dotfiles/setup-zsh
