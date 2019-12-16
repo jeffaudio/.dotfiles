@@ -2,7 +2,7 @@
 # Package Manager
 source ~/.dotfiles/config/antigen.zsh
 antigen use oh-my-zsh
-antigen theme robbyrussel
+antigen theme robbyrussell
 
 antigen bundle git
 
