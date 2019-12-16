@@ -7,7 +7,6 @@
 
 - link:
     ~/.vim: vim
-    
 
 - create:
     - ~/git

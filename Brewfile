@@ -1,0 +1,6 @@
+brew 'docker'
+brew 'fzf'
+brew 'git'
+brew 'python3'
+brew 'sqlite'
+brew 'zsh'
