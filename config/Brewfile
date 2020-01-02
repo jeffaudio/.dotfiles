@@ -1,6 +1,12 @@
-brew 'docker'
-brew 'fzf'
-brew 'git'
-brew 'python3'
-brew 'sqlite'
-brew 'zsh'
+tap "homebrew/cask"
+cask_args appdir: "/Applications"
+
+brew "docker"
+brew "fzf"
+brew "git"
+brew "python3"
+brew "sqlite"
+brew "zsh"
+
+cask "google-chrome"
+cask "slack"
