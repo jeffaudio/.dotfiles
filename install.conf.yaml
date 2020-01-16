@@ -5,6 +5,10 @@
 
 - clean: ['~']
 
+- shell:
+  - git config --global core.editor "vim"
+  - git config --global user.name "Jeff Hentschel"
+
 - link:
     ~/.zshrc: zshrc
     ~/.vim: vim
