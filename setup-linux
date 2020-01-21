@@ -3,7 +3,7 @@
 echo "- Updating packages"
 sudo apt update -qy
 echo "- Installing recommended packages"
-sudo apt install -qy git zsh fzf fonts-powerline
+sudo apt install -qy git zsh fzf vim fonts-powerline
 
 # Setup ZSH
 ~/.dotfiles/setup-zsh

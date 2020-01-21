@@ -7,6 +7,9 @@ HOSTNAME=`hostname`
 export ZSH=$HOME/.oh-my-zsh
 export GPG_TTY=$(tty)
 
+# Aliases
+alias docker-ls="docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\""
+
 # Package Manager
 source ~/.dotfiles/config/antigen.zsh
 antigen use oh-my-zsh
