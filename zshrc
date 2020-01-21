@@ -16,6 +16,10 @@ antigen bundle git
 
 antigen apply
 
+# Allow VIM mode
+bindkey -v
+export KEYTIMEOUT=1
+
 # Prompt
 prompt_context() {
   if [[ $HOSTNAME == *"pi"* ]]; then
