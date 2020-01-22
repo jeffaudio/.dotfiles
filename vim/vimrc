@@ -22,3 +22,7 @@ augroup configgroup
     autocmd Filetype markdown setlocal sw=4 ts=4 sts=4 " Markdown spaces
     autocmd Filetype md setlocal sw=4 ts=4 sts=4
 augroup END
+
+" Abbreviations for co-authoring
+iabbrev codk Co-authored-by: Dillon Krompetz <dkrompet@ford.com>
+iabbrev cokk Co-authored-by: Kevin Kuang <kkuang1@ford.com>
