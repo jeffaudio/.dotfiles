@@ -26,3 +26,4 @@ augroup END
 " Abbreviations for co-authoring
 iabbrev codk Co-authored-by: Dillon Krompetz <dkrompet@ford.com>
 iabbrev cokk Co-authored-by: Kevin Kuang <kkuang1@ford.com>
+iabbrev codm Co-authored-by: Denzil Menezes <dmeneze9@ford.com>
