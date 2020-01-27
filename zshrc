@@ -23,21 +23,6 @@ antigen bundle $HOME/.dotfiles/zsh_custom/plugins/agnoster-vim
 
 antigen apply
 
+# Enable reverse history search
+bindkey '^R' history-incremental-search-backward
 
-# Allow VIM mode
-#bindkey -v
-#export KEYTIMEOUT=1
-#
-## Prompt
-#prompt_context() {
-#  if [[ $HOSTNAME == *"pi"* ]]; then
-#    HOST_SLUG="$PROMPT_ICON🥧"
-#  fi
-#
-#  USER_SLUG="$USER"
-#  if [[ "$USER" == "$DEFAULT_USER" ]]; then
-#    USER_SLUG="👋"
-#  fi
-#
-#  prompt_segment black default "$HOST_SLUG $USER_SLUG"
-#}
