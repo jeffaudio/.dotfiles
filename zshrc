@@ -25,4 +25,8 @@ antigen apply
 
 # Enable reverse history search
 bindkey '^R' history-incremental-search-backward
+bindkey '^B' backward-word
+bindkey '^W' forward-word
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
 
