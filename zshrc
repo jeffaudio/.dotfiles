@@ -12,6 +12,7 @@ export GPG_TTY=$(tty)
 
 # Aliases
 alias docker-ls="docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\""
+alias code="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/MacOS/Electron"
 
 # Package Manager
 source $HOME//.dotfiles/config/antigen.zsh
