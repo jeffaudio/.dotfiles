@@ -30,4 +30,6 @@ bindkey '^B' backward-word
 bindkey '^W' forward-word
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
-
+bindkey "\e[3~" delete-char
+bindkey '[C' forward-word
+bindkey '[D' backward-word
