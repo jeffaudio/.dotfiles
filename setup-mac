@@ -17,8 +17,8 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# Setup ZSH
-~/.dotfiles/setup-zsh
-
 # Run dotbot
 ~/.dotfiles/install
+
+# Setup ZSH
+~/.dotfiles/setup-zsh

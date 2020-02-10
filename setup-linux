@@ -5,7 +5,7 @@ sudo apt update -qy
 echo "- Installing recommended packages"
 sudo apt install -qy git zsh fzf vim fonts-powerline
 
+~/.dotfiles/install
+
 # Setup ZSH
 ~/.dotfiles/setup-zsh
-
-~/.dotfiles/install
