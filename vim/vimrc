@@ -27,3 +27,12 @@ augroup END
 iabbrev codk Co-authored-by: Dillon Krompetz <dkrompet@ford.com>
 iabbrev cokk Co-authored-by: Kevin Kuang <kkuang1@ford.com>
 iabbrev codm Co-authored-by: Denzil Menezes <dmeneze9@ford.com>
+iabbrev coak Co-authored-by: Andy Kaminski <akminsk@ford.com>
+
+" Emoji abbreviations
+iabbrev :bug: 🐛
+iabbrev :shipit: 🚢
+iabbrev :box: 📦
+iabbrev :bot: 🤖
+iabbrev :+1: 👍
+iabbrev :-1: 👎
